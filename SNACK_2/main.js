@@ -14,12 +14,12 @@ const lunghezza_1 = parola_1.length
 const lunghezza_2 = parola_2.length
 
 
-if (lunghezza_1 > lunghezza_2){
-    console.log(`"${parola_1}" è più lunga di "${parola_2}"`)
+if (lunghezza_1 < lunghezza_2){
+    console.log(`"${parola_1}" è più corta di "${parola_2}"`)
 }
 
-else if (lunghezza_2 > lunghezza_1){
-    console.log(`"${parola_2}" è più lunga di "${parola_1}"`)
+else if (lunghezza_2 < lunghezza_1){
+    console.log(`"${parola_2}" è più corta di "${parola_1}"`)
 }
 
 else{
