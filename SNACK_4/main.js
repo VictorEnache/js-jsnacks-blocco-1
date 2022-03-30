@@ -25,9 +25,9 @@ for (i = 0; i < elenco_invitati.length; i++) {
 }
 
 if (bool){
-    console.log('sei nell elenco')
+    console.log(`sei nell elenco ${nome_invitato}, puoi partecipare`)
 }
 
 else {
-    console.log('non sei nell elemco')
+    console.log(`non sei nell elemco ${nome_invitato}, non puoi partecipare`)
 }
