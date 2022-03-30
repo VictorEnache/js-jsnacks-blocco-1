@@ -11,7 +11,7 @@ let lista_numeri = []
 
 let somma = 0;
 
-for (i = 0; i < 10; i++){
+for (let i = 0; i < 10; i++){
     numero = parseInt(prompt('Inserisci un numero'))
     
     lista_numeri.push(numero)
@@ -19,7 +19,7 @@ for (i = 0; i < 10; i++){
    
 }
 
-for (i = 0; i < lista_numeri.length; i++){
+for (let i = 0; i < lista_numeri.length; i++){
     somma += lista_numeri[i]
 }
 

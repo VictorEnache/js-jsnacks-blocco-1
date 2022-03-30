@@ -10,7 +10,7 @@ let elenco_numeri = []
 
 let numero_inserito
 
-for (i = 0; i < 6; i++) {
+for (let i = 0; i < 6; i++) {
     numero_inserito = parseInt(prompt('inserisci un numero'))
 
     if (numero_inserito % 2 != 0){

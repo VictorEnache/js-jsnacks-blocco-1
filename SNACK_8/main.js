@@ -16,7 +16,7 @@ if (numero_inserito.length === 4 && !isNaN(numero_inserito)){
     
     somma = 0;
     
-    for (i= 0; i < lista_numeri.length; i++){
+    for (let i= 0; i < lista_numeri.length; i++){
     
         numero = Number(lista_numeri[i])
     

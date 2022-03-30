@@ -16,7 +16,7 @@ const elenco_invitati = ['victor', 'ginevra', 'jonny', 'vincenzo']
 
 let invitato;
 
-for (i = 0; i < elenco_invitati.length; i++) {
+for (let i = 0; i < elenco_invitati.length; i++) {
     invitato = elenco_invitati[i]
 
     if (nome_invitato === invitato){

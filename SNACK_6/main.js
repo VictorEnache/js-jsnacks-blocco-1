@@ -11,7 +11,7 @@ let cubo;
 
 let tutti_cubi = [];
 
-for (i = 1; i <= numero_dato; i++) {
+for (let i = 1; i <= numero_dato; i++) {
 
     cubo = Math.pow(i, 3)  
     tutti_cubi.push(cubo) 
