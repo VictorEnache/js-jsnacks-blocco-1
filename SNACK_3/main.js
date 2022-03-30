@@ -15,8 +15,6 @@ for (i = 0; i < 10; i++){
     numero = parseInt(prompt('Inserisci un numero'))
     
     lista_numeri.push(numero)
-
-    console.log(numero)
     
    
 }
@@ -25,5 +23,6 @@ for (i = 0; i < lista_numeri.length; i++){
     somma += lista_numeri[i]
 }
 
+console.log(lista_numeri)
 console.log(`Totale: ${somma}`)
 
