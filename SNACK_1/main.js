@@ -21,3 +21,7 @@ else {
     console.log(`I numeri sono uguali: ${number_1} = ${number_2}`)
 
 }
+
+if (isNaN(number_1) || isNaN(number_2)){
+    console.log('Inserisci dei numeri perfavore')
+}
