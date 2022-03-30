@@ -12,7 +12,7 @@ let bool = false
 
 let nome_invitato = prompt('inserisci il tuo nome')
 
-const elenco_invitati = ['victor', 'ginevra', 'jonny', 'vincenz']
+const elenco_invitati = ['victor', 'ginevra', 'jonny', 'vincenzo']
 
 let invitato;
 
@@ -25,9 +25,9 @@ for (i = 0; i < elenco_invitati.length; i++) {
 }
 
 if (bool){
-    console.log(`sei nell elenco ${nome_invitato}, puoi partecipare`)
+    console.log(`sei nell'elenco ${nome_invitato}, puoi partecipare`)
 }
 
 else {
-    console.log(`non sei nell elemco ${nome_invitato}, non puoi partecipare`)
+    console.log(`non sei nell'elemco ${nome_invitato}, non puoi partecipare`)
 }
