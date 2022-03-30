@@ -13,12 +13,12 @@ for (i = 1; i <= 10; i++){
     primi_10_numeri.push(numero_array)
 }
 
-for (i = 0; i < 10; i++){
+for (i = 0; i < primi_10_numeri.length; i++){
     numero = primi_10_numeri[i]
     somma += numero
 }
 
-media = somma / 10;
+media = somma / primi_10_numeri.length;
 
 console.log(somma)
 console.log(media)
