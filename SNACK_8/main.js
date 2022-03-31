@@ -7,6 +7,8 @@ e calcola la somma di tutte le cifre che compongono il numero.
 
 const numero_inserito = prompt('inserisci un numero formato da 4 cifre');
 
+console.log(isNaN(numero_inserito))
+
 
 if (numero_inserito.length === 4 && !isNaN(numero_inserito)){
 
