@@ -20,4 +20,4 @@ while (i<10) {
     i++
 }
 
-comsole.log(somma)
+console.log(somma)
